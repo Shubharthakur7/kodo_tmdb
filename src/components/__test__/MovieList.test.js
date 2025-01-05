@@ -1,7 +1,11 @@
 import { MovieList } from "../MovieList";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import {} from "../../features/movies/moviesApi"
+
+jest.mock("react", ()=> ({
+    ...jest.requireActual("react"),
+    useEffect: (f) => f(),
+}))
 
 jest.mock("../../features/movies/moviesApi", () => ({
     useFetchMoviesQuery: jest.fn(() => {

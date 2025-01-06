@@ -14,7 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 node version: 20.9.0
 npm version: 10.1.0
 
-All the api's will not work on jio or inernation or non indian server or with vpn
+All the api's will not work on jio or inernation or non indian server or with vpn.
+
+
 live URL: https://kodo-tmdb-shubharthakur7s-projects.vercel.app
 
 
